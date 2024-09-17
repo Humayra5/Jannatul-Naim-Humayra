@@ -1,0 +1,77 @@
+/*1 july 2024 3 col page by humayra*/
+
+*{margin:0; padding:0;}
+#wrapper{
+	width:960px;
+	margin:50px auto;
+	
+}
+.box{
+	width:300px;
+	float:left;
+	margin-right:30px;
+}
+.box img{
+	width:300px;
+}
+.margin{
+	margin-right:0px;
+}
+.box h2{
+	color:blue;
+	text-align:center;
+}
+.box p{
+	text-align:justify;
+}
+.box a{
+	text-decoration:none;
+	color:red;
+	margin:0 auto;
+	background-color:lime;
+	display:block;
+	text-align:center;
+	padding:3px;
+}
+.box a:hover{
+	background-color:blue;
+	color:white;
+}
+.box p:hover{
+	background-color:blue;
+	color:white;
+}
+.box h2:hover{
+	background-color:brown;
+	color:white;
+}
+
+
+#menu{
+	text-align:center;
+	margin-top:50px;
+}
+#menu li{
+	display:inline;
+}
+
+#menu li a{
+	text-decoration:none;
+	background-color:blue;
+	color:white;
+	padding:10px 20px;
+}
+table{
+	width:400px;
+	
+	margin:50px;
+}
+table>tr{
+	border:1px solid red;
+}
+
+
+table tr td{
+	border:1px solid red;
+	
+}
